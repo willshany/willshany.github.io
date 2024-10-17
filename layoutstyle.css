@@ -1,0 +1,59 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+color: aquamarine;
+font-size: 50px;
+}
+
+/* Class Selector */
+.common {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    background-color: blanchedalmond;
+    
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    height: 100px;
+    padding-left: 20px;
+    right: 5px;
+    z-index: 2;
+}
+
+.leftmenu {
+    top: 111px;
+    left: 5px;
+    bottom: 50px;
+    width: 150px;
+    z-index: 1;
+}
+.rightmenu {
+    top: 111px;
+    bottom:50px;
+    right: 5px;
+    width: 150px;
+}
+.mainbody {
+    top: 111px;
+    left: 161px;
+    bottom: 50px;
+    right: 161px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    position: fixed;
+}
+
+.subheader {
+    border: solid 1px;
+    color: black;
+    float: right;
+}
